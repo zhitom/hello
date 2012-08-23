@@ -7,7 +7,7 @@
 #include <strstream>
 
 using namespace std;
-
+//test
 class SmSpCode;
 void setObj(SmSpCode &obj,const char* spCode,const char* pCode,
                           const char* serviceCode,const char* feeRateIdUp,
