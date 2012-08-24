@@ -26,17 +26,18 @@ public:
 		char beginTime[14+1];
 		char endTime[14+1];
 		int dealFlag;
-SmSpCode::SmSpCode()
+
+SmSpCode()
 {}
-SmSpCode::~SmSpCode()
+~SmSpCode()
 {}
 
-SmSpCode::SmSpCode(const SmSpCode& right)
+SmSpCode(const SmSpCode& right)
 {
 	*this=right;
 }
 
-void SmSpCode::operator=(const SmSpCode& right)
+void operator=(const SmSpCode& right)
 {
 	setObj((*this),right.spCode,right.pCode,right.serviceCode,
 	       right.feeRateIdUp,right.feeRateIdDn,right.beginTime,
